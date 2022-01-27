@@ -16,8 +16,7 @@ class Solution(object):
         :type num2: str
         :rtype: str
         """
-        
-
         num1_int = self.get_int_from(num1)
         num2_int = self.get_int_from(num2)
+        
         return str(num1_int * num2_int)
